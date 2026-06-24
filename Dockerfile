@@ -1,5 +1,3 @@
 FROM nginx:alpine
-
-COPY . /usr/share/nginx/html
-
+COPY repsite/ /usr/share/nginx/html/
 EXPOSE 80
